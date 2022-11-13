@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CompanyFINALController;
+use App\Http\Controllers\CompanyCRUDController;
 
-Route::resource('companies', CompanyFINALController::class);
+Route::resource('companies', CompanyCRUDController::class);
 
 /*
 |--------------------------------------------------------------------------
